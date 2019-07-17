@@ -1,0 +1,88 @@
+.container {
+    width: 51%;
+    position: absolute;
+    background-color: #AF1E39;
+}
+
+
+.logo {
+    padding: 10px;
+    width: 6rem;
+
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+
+    input {
+        border-radius: 10%;
+        width: 90%;
+        height: 3rem;
+        font-size: 300%;
+        text-align: right;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #323335;
+        padding-right: 10px;
+        
+    }
+
+    ::placeholder {
+        color: white;
+        
+    }
+    
+}
+
+.all-buttons {
+    width: 100%;
+
+}
+
+.middle-buttons {
+    height: 100%;
+    display: flex;
+}
+
+.numbersButtons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    button {
+        margin: 5px;
+        width: 4rem;
+        height: 4rem;  
+        border-radius: 50%;
+        background-color: #094377;
+    }
+}
+.operatorsButtons {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 20px;
+
+    button {
+        margin: 5px;
+        width: 4rem;
+        height: 4rem;   
+        border-radius: 50%;   
+        background-color: #007291;
+    }
+}
+.specialsButtons {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+
+    button {
+        margin: 5px;
+        width: 4rem;
+        height: 4rem;   
+        border-radius: 50%;   
+        background-color: #0B5D9B;
+    }
+}
