@@ -33,7 +33,7 @@ function App() {
       </div>
       <div className="App">
         <div class='input'>
-          <input type='text' placeholder='0'></input>
+          <input type='text' placeholder='testing zest'></input>
         </div>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <div class = 'all-buttons'>
